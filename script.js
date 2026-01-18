@@ -13,7 +13,7 @@ window.onscroll = () => {
 };
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Song Artist', 'Art Creator', 'Book Author', 'Developer'],
+    strings: [ 'MM', 'OO', '<>', 'AA', 'Master'],
     typeSpeed: 80,
     backSpeed: 80,
     backDelay: 1200,
@@ -58,6 +58,7 @@ form.addEventListener('submit', async (event) => {
             'An error occurred. Please try again.';
     }
 });
+
 
 
 
