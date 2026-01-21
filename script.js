@@ -13,7 +13,7 @@ window.onscroll = () => {
 };
 
 const typed = new Typed('.multiple-text', {
-    strings: [ 'MM', 'OO', '<>', 'AA', 'Master'],
+    strings: [ 'MM', 'OO', '<>', 'AA', 'CC'],
     typeSpeed: 80,
     backSpeed: 80,
     backDelay: 1200,
@@ -58,6 +58,7 @@ form.addEventListener('submit', async (event) => {
             'An error occurred. Please try again.';
     }
 });
+
 
 
 
