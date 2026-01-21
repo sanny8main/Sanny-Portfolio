@@ -320,16 +320,19 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 220px;
+    padding: 10px;
 }
 .books .heading{
     margin-bottom: 5rem;
 }
 .books-box img{
-    width: 15rem;
+    width: 100%;
     border-radius: 50%;
     border: 3px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
-}
+}     
+
 .wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -580,6 +583,7 @@ span {
     }
 
 }
+
 
 
 
