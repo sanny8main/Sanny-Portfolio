@@ -314,6 +314,15 @@ span {
 .books{
     background: var(--snd-bg-color);
 }
+
+.books-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
 .books-box{
     background-size: cover;
     display: flex;
@@ -581,6 +590,7 @@ span {
     }
 
 }
+
 
 
 
